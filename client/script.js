@@ -98,7 +98,7 @@ const handleSubmit = async (e) => {
 
 //Fetch data do server => resposta do bot
 
-const response = await fetch('http://localhost:5000', {
+const response = await fetch('https://openiacodex.onrender.com', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
